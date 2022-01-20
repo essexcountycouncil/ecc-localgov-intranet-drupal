@@ -1,0 +1,14 @@
+uuid: a99fb075-932f-43b9-bab7-de7e6b0b6d73
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.localgov_editor
+  module:
+    - user
+id: user_remove_role_action.localgov_editor
+label: 'Remove the Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: localgov_editor

@@ -1,0 +1,12 @@
+uuid: 9f51def8-9b02-4c5e-920d-cb2f494be579
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KD80_XJkUjhaM73UBKz302IhM-5LMcyhSXMRA8kUEdg
+id: localgov_tab_panel
+label: 'Tab panel'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

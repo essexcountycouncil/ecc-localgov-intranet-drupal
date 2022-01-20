@@ -1,0 +1,45 @@
+uuid: 58e1d195-48b2-4109-8541-defd1a8bd754
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ecc_link_and_summary_with_icon.field_ecc_icon
+    - field.field.paragraph.ecc_link_and_summary_with_icon.field_ecc_link
+    - field.field.paragraph.ecc_link_and_summary_with_icon.field_ecc_summary
+    - paragraphs.paragraphs_type.ecc_link_and_summary_with_icon
+  module:
+    - link
+    - options
+id: paragraph.ecc_link_and_summary_with_icon.default
+targetEntityType: paragraph
+bundle: ecc_link_and_summary_with_icon
+mode: default
+content:
+  field_ecc_icon:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_ecc_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ecc_summary:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

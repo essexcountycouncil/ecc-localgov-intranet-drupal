@@ -1,0 +1,22 @@
+uuid: d6a9797d-a6e5-40ca-95e5-bb6a42fa4ed1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: XqdhRTIfjgkSTBL-WtfsStngpA1B7I9_ajAh3cVOk5s
+id: stable_localgov_messages_scarfolk
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

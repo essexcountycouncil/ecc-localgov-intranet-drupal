@@ -1,0 +1,12 @@
+uuid: e315068b-b1b6-42c3-8d1b-2c8d2018358c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: RjSj1bJQUnpuaTjsEqeF2cHh0wfPkqwe6mhWCNoerSU
+id: localgov_call_out_box
+label: 'Call out box'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

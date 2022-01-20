@@ -1,0 +1,23 @@
+uuid: f203dce1-f301-43b6-934b-e055a0724791
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov_alert_banner
+  theme:
+    - localgov_theme
+_core:
+  default_config_hash: aBJwu5q6V8qxDAfaHMKK6_iYbcRz0dQIuS5Hscr5Cvg
+id: localgov_theme_localgov_alert_banner_scarfolk
+theme: localgov_theme
+region: banner
+weight: 0
+provider: null
+plugin: localgov_alert_banner_block
+settings:
+  id: localgov_alert_banner
+  label: 'Alert banner'
+  label_display: '0'
+  provider: localgov_alert_banner
+  include_types: {  }
+visibility: {  }

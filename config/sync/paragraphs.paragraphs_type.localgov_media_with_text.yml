@@ -1,0 +1,12 @@
+uuid: efdd67b9-0378-483a-8566-65a82249470d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QX-jBH-7q2I8af2yKehQ1kivEdiNujNJlR2b5uHOkPo
+id: localgov_media_with_text
+label: 'Media with text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,28 @@
+uuid: bcb6bfd2-b065-4a1a-955a-95a40a1b942a
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov
+    - system
+  theme:
+    - ecc_localgov_intranet
+_core:
+  default_config_hash: G3wwIAYo1fyw5qaQywazqr-r0a6zdt08kvzHhgCYTVs
+id: ecc_localgov_intranet_localgov_home_welcome_block_scarfolk
+theme: ecc_localgov_intranet
+region: disabled
+weight: 0
+provider: null
+plugin: localgov_home_welcome_block
+settings:
+  id: localgov_home_welcome_block
+  label: 'Home welcome block'
+  label_display: '0'
+  provider: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '<front>'

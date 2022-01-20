@@ -1,0 +1,24 @@
+uuid: c1892cde-363c-46af-be23-19ca18a8ee13
+langcode: en
+status: true
+dependencies:
+  module:
+    - role_delegation
+    - system
+    - toolbar
+  enforced:
+    module:
+      - localgov_roles
+_core:
+  default_config_hash: hQSlQm58sfNt6InM-RrmoR4NWkli3tR9gWr3N37DIoM
+id: localgov_user_manager
+label: 'User manager'
+weight: 5
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'administer users'
+  - 'assign localgov_author role'
+  - 'assign localgov_contributor role'
+  - 'assign localgov_editor role'
+  - 'view the administration theme'

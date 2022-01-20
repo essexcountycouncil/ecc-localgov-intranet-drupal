@@ -1,0 +1,22 @@
+uuid: 85608419-dfe2-4765-b1f5-43f1640d4374
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov_step_by_step
+  theme:
+    - localgov_essex
+_core:
+  default_config_hash: jfJ2x2-k-K8Yg1_sdXfXxEaxq2HODqH4b0oxN3IwkUc
+id: localgov_essex_localgov_part_of_step_heading_scarfolk
+theme: localgov_essex
+region: content
+weight: -8
+provider: null
+plugin: step_part_of_block
+settings:
+  id: step_part_of_block
+  label: 'Part of step heading'
+  label_display: '0'
+  provider: localgov_step_by_step
+visibility: {  }

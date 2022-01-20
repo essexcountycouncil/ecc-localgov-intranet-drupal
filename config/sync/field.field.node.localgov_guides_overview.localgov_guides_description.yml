@@ -1,0 +1,21 @@
+uuid: 22496a61-bc49-4dd2-ab6a-6aca20ec5827
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.localgov_guides_description
+    - node.type.localgov_guides_overview
+_core:
+  default_config_hash: 7BDyo_0OeM5OVPheMLXiBDdrHpRBWnQ12ZjX2-9GABY
+id: node.localgov_guides_overview.localgov_guides_description
+field_name: localgov_guides_description
+entity_type: node
+bundle: localgov_guides_overview
+label: 'Guide description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

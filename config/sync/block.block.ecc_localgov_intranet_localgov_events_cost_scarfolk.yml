@@ -1,0 +1,31 @@
+uuid: 34d293ce-0f36-4694-bbf4-d06d28f8dba7
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.localgov_events_price
+  module:
+    - facets
+    - system
+  theme:
+    - ecc_localgov_intranet
+_core:
+  default_config_hash: tQqmI8ylHn0eg5lwG1C7chlSHGmWI0715tDTuHxG92Q
+id: ecc_localgov_intranet_localgov_events_cost_scarfolk
+theme: ecc_localgov_intranet
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'facet_block:localgov_events_price'
+settings:
+  id: 'facet_block:localgov_events_price'
+  label: 'Events cost'
+  label_display: '0'
+  provider: facets
+  block_id: localgov_events_cost
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /events/search

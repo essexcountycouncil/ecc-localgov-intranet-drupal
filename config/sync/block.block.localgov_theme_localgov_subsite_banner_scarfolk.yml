@@ -1,0 +1,24 @@
+uuid: b64ccd64-4994-4ca8-adc0-7994d5b02f3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov_subsites
+  theme:
+    - localgov_theme
+_core:
+  default_config_hash: Jr3czF44B5B-KsLZ4z7mqCtfroGwlbRRLZglQV6Xd0c
+id: localgov_theme_localgov_subsite_banner_scarfolk
+theme: localgov_theme
+region: banner
+weight: 0
+provider: null
+plugin: localgov_subsite_banner
+settings:
+  id: localgov_subsite_banner
+  label: 'Subsite banner'
+  label_display: '0'
+  provider: localgov_subsites
+  context_mapping:
+    node: '@node.node_route_context:node'
+visibility: {  }

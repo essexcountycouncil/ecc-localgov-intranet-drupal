@@ -1,0 +1,22 @@
+uuid: 8af5c090-dfe2-4451-a019-c4667b13224e
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.wysiwyg
+  module:
+    - filter
+    - localgov_geo
+    - media
+    - system
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format wysiwyg'
+  - 'view geo'
+  - 'view media'

@@ -1,0 +1,66 @@
+uuid: ba4a750b-0137-4303-ad72-f00687b704fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_ecc_icon
+field_name: field_ecc_icon
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: recruitment
+      label: Recruitment
+    -
+      value: pay-and-benefits
+      label: 'Pay, Benefits and Rewards'
+    -
+      value: buying
+      label: 'Buying goods and services'
+    -
+      value: flexible-working
+      label: 'Flexible working'
+    -
+      value: book-meeting-room
+      label: 'Book a meeting room'
+    -
+      value: learning
+      label: 'Learning and development'
+    -
+      value: onboarding
+      label: Onboarding
+    -
+      value: expenses
+      label: Expenses
+    -
+      value: time-off-2
+      label: 'Annual leave and time off'
+    -
+      value: time-off|
+      label: 'Time off'
+    -
+      value: careers
+      label: 'Internal careers portal'
+    -
+      value: covid
+      label: Coronavirus
+    -
+      value: people
+      label: 'Financial and People tools'
+    -
+      value: phone
+      label: 'Telephone directory'
+    -
+      value: computer
+      label: Computer
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 56c83660-215b-4e94-91ce-5d9c68f4859a
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov_search
+  theme:
+    - ecc_localgov_intranet
+_core:
+  default_config_hash: JoaPjqtHO4LkjJZwk13yGbqxhzg7fmFiv2tgOdNJ4r8
+id: ecc_localgov_intranet_localgov_sitewide_search_block_scarfolk
+theme: ecc_localgov_intranet
+region: search
+weight: -16
+provider: null
+plugin: localgov_sitewide_search_block
+settings:
+  id: broken
+  label: 'Sitewide search block'
+  label_display: '0'
+  provider: localgov_search
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 1310a901-7091-4c4b-884b-b65bddf88e0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov_search
+  theme:
+    - localgov_theme
+_core:
+  default_config_hash: JoaPjqtHO4LkjJZwk13yGbqxhzg7fmFiv2tgOdNJ4r8
+id: localgov_theme_localgov_sitewide_search_block_scarfolk
+theme: localgov_theme
+region: search
+weight: -16
+provider: null
+plugin: localgov_sitewide_search_block
+settings:
+  id: broken
+  label: 'Sitewide search block'
+  label_display: '0'
+  provider: localgov_search
+visibility: {  }

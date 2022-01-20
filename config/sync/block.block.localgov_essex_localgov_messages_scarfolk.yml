@@ -1,0 +1,22 @@
+uuid: 705089cd-75fa-4693-82ce-7da29340e56f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - localgov_essex
+_core:
+  default_config_hash: XqdhRTIfjgkSTBL-WtfsStngpA1B7I9_ajAh3cVOk5s
+id: localgov_essex_localgov_messages_scarfolk
+theme: localgov_essex
+region: messages
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

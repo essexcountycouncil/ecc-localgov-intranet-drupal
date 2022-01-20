@@ -1,0 +1,22 @@
+uuid: 695df242-7d7b-4af4-a3de-054e626f8820
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov_step_by_step
+  theme:
+    - ecc_localgov_intranet
+_core:
+  default_config_hash: jfJ2x2-k-K8Yg1_sdXfXxEaxq2HODqH4b0oxN3IwkUc
+id: ecc_localgov_intranet_localgov_part_of_step_heading_scarfolk
+theme: ecc_localgov_intranet
+region: content
+weight: -8
+provider: null
+plugin: step_part_of_block
+settings:
+  id: step_part_of_block
+  label: 'Part of step heading'
+  label_display: '0'
+  provider: localgov_step_by_step
+visibility: {  }

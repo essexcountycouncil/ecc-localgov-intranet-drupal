@@ -1,0 +1,31 @@
+uuid: 687d300f-d496-4b72-934b-4721e15124ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.localgov_events_price
+  module:
+    - facets
+    - system
+  theme:
+    - localgov_essex
+_core:
+  default_config_hash: tQqmI8ylHn0eg5lwG1C7chlSHGmWI0715tDTuHxG92Q
+id: localgov_essex_localgov_events_cost_scarfolk
+theme: localgov_essex
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'facet_block:localgov_events_price'
+settings:
+  id: 'facet_block:localgov_events_price'
+  label: 'Events cost'
+  label_display: '0'
+  provider: facets
+  block_id: localgov_events_cost
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /events/search

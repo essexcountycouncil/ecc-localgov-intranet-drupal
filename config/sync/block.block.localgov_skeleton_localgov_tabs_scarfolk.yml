@@ -1,0 +1,22 @@
+uuid: 03944f4b-7488-40e2-8a1d-dc8497231278
+langcode: en
+status: true
+dependencies:
+  theme:
+    - localgov_skeleton
+_core:
+  default_config_hash: 18k4pNekX8og7ZyuFH_4h0qPH5lm4OKpF5OXvHB2JGc
+id: localgov_skeleton_localgov_tabs_scarfolk
+theme: localgov_skeleton
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

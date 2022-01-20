@@ -1,0 +1,10 @@
+uuid: d8a00d8a-b06d-46a8-a6b7-875105ceb8dc
+langcode: en
+status: true
+dependencies: {  }
+id: ecc_link_and_summary_with_icon
+label: 'ECC Link and Summary with icon'
+icon_uuid: null
+icon_default: null
+description: 'Extended version of LocalGov Link and Summary but additionally allowing an image to be added'
+behavior_plugins: {  }

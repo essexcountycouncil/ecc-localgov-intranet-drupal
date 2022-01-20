@@ -1,0 +1,9 @@
+uuid: 8b93dfb5-503e-43ca-844e-8884a843ac99
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 9bTdnZO4V7bSO2c3h3YJ_MHpLAVyD2L_D8tWPb4iS_U
+id: address
+label: Address
+label_token: '[localgov_geo:postal_address]'

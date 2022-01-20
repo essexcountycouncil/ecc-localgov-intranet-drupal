@@ -1,0 +1,23 @@
+uuid: 41d2282a-cc5f-4fac-a251-1ca05f996e27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.localgov_caption
+    - paragraphs.paragraphs_type.localgov_image
+  module:
+    - text
+_core:
+  default_config_hash: oUXJQogDoQ9ycKr4J5X0RVGPyCTLdMvBCRaj888fHbw
+id: paragraph.localgov_image.localgov_caption
+field_name: localgov_caption
+entity_type: paragraph
+bundle: localgov_image
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

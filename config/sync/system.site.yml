@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: en
+uuid: 1f8fe0a0-a609-4c9e-ac59-1af09aa9c00a
+name: 'Essex LocalGov Drupal Intranet '
+mail: hannah.nicholas@tpximpact.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/92
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

@@ -1,0 +1,21 @@
+uuid: e8ef82a3-c499-43da-9804-83b8b4109714
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ecc_icon
+    - paragraphs.paragraphs_type.ecc_link_and_summary_with_icon
+  module:
+    - options
+id: paragraph.ecc_link_and_summary_with_icon.field_ecc_icon
+field_name: field_ecc_icon
+entity_type: paragraph
+bundle: ecc_link_and_summary_with_icon
+label: Icon
+description: 'Select your icon from a pre-approved list of ECC icons. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

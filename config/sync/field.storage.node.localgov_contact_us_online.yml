@@ -1,0 +1,23 @@
+uuid: ff80f0db-adb8-4574-8464-6245a3374dbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: wISVRt27Ri2mm4sdFx-_qVP-aTlmbPdUKsAmeDJ5orY
+id: node.localgov_contact_us_online
+field_name: localgov_contact_us_online
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

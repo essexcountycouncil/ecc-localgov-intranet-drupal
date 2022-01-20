@@ -1,0 +1,22 @@
+uuid: 46464e3d-1ecb-49bd-a25d-7c22dd9a5016
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ecc_localgov_intranet
+_core:
+  default_config_hash: HMT0p1pe6D6hsYTqyWbzK2nquVWT6anaDXoNu7WYvPI
+id: ecc_localgov_intranet_localgov_breadcrumbs_scarfolk
+theme: ecc_localgov_intranet
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

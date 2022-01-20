@@ -1,0 +1,31 @@
+uuid: 11b0152b-cd98-44ae-a843-206a5a622471
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.localgov_news_date
+  module:
+    - facets
+    - system
+  theme:
+    - localgov_essex
+_core:
+  default_config_hash: JeSlkVpjM_YmQGGqgy5iViMTF4-0WOvZW9iTfCFUXCA
+id: localgov_essex_localgov_news_date
+theme: localgov_essex
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'facet_block:localgov_news_date'
+settings:
+  id: 'facet_block:localgov_news_date'
+  label: 'News date'
+  label_display: '0'
+  provider: facets
+  block_id: localgov_news_date
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '/news/*'

@@ -1,0 +1,12 @@
+uuid: 3597e717-c75d-4e76-9e37-d0ea7cdf17d8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: v-b7gRMqCH91hUFKwfzrI9vkf1qFvAUrlcO6RKnydAM
+id: localgov_featured_subsite
+label: 'Featured subsite'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

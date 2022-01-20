@@ -1,0 +1,23 @@
+uuid: e3ce1bac-79be-4a9a-bed2-112635db2893
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov_alert_banner
+    - system
+  enforced:
+    module:
+      - localgov_alert_banner
+_core:
+  default_config_hash: SxNl4YDVXJiwDG0B_gkNhpjiovRtr3a0Cp3oIiA5IIk
+id: emergency_publisher
+label: 'Emergency publisher'
+weight: -2
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access localgov alert banner listing page'
+  - 'manage all localgov alert banner entities'
+  - 'use localgov_alert_banners transition publish'
+  - 'use localgov_alert_banners transition unpublish'
+  - 'view all localgov alert banner entities'

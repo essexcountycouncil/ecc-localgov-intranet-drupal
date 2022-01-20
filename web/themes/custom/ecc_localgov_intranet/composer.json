@@ -1,0 +1,7 @@
+{
+    "name": "ecc_intranet/ecc_localgov_intranet",
+    "description": "Essex County Council LocalGov Intranet theme",
+    "type": "drupal-theme",
+    "homepage": "https://github.com/tpcimpact/ecc_localgov_intranet",
+    "license": "GPL-2.0-or-later"
+}

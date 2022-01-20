@@ -1,0 +1,22 @@
+uuid: 41aba7e3-15a4-4361-b825-769b8daa91d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov_services_page
+  theme:
+    - stable
+_core:
+  default_config_hash: PVdTznuKPvuCBQyC2dbF8BYAHgpc0PTD0kSIpbSzyrc
+id: stable_localgov_servicepagerelatedtopics_scarfolk
+theme: stable
+region: sidebar_second
+weight: 1
+provider: null
+plugin: localgov_services_related_topics_block
+settings:
+  id: localgov_services_related_topics_block
+  label: 'Service page related topics'
+  label_display: '0'
+  provider: localgov_services_page
+visibility: {  }

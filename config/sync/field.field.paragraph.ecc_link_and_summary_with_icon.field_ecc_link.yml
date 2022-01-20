@@ -1,0 +1,23 @@
+uuid: 52ef59de-9dad-45c3-af6b-b8fe0bda5f5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ecc_link
+    - paragraphs.paragraphs_type.ecc_link_and_summary_with_icon
+  module:
+    - link
+id: paragraph.ecc_link_and_summary_with_icon.field_ecc_link
+field_name: field_ecc_link
+entity_type: paragraph
+bundle: ecc_link_and_summary_with_icon
+label: Link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link
