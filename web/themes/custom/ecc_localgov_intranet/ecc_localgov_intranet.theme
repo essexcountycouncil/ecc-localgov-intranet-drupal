@@ -3,3 +3,18 @@
 /**
  * @file Theme function for the Essex County Council LocalGov Intranet theme.
  */
+
+
+/**
+ * Implements template_preprocess_region().
+ */
+function ecc_localgov_intranet_preprocess_region(&$variables) {
+
+  // Add missing region CSS classes.
+  $variables['attributes']['class'] = [];
+  $variables['attributes']['class'][] = 'region';
+
+  if (isset($variables['region']) && !empty($variables['region'])) {
+    $variables['attributes']['class'][] = 'region-' . str_replace('_', '-', $variables['region']);
+  }
+}

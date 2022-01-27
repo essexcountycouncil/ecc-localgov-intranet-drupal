@@ -1,0 +1,97 @@
+{# Attach libraries #}
+{% if not localgov_base_remove_js %}
+  {{ attach_library('localgov_base/header-js') }}
+{% endif %}
+
+{# We've had to move things around from the localgov base header file - mainly 
+to get the logo  | search in order then if nav is added its available but it wasn't 
+part of the original designs but I want to future proof this #}
+
+<header class="lgd-header ecc-header">
+	<div class="ecc-header--primary">
+		<div class="lgd-container">
+
+			<div class="lgd-row ecc-header">
+				<div class="lgd-row__full">
+					<div class="lgd-header__inner">
+						{# logo #}
+						{{ page.header }}
+
+
+						{# search #}
+						{% if has_search %}
+							{{ page.search }}
+						{% endif %}
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ecc-header--secondary">
+		<div class="lgd-container">
+			<div class="lgd-row">
+				<div class="lgd-row__full">
+					<div class="lgd-header__inner">
+
+					{% if has_primary_menu %}
+						<div id="lgd-header__nav--primary" class="lgd-header__nav lgd-header__nav--primary ecc-nav__primary">
+							{% if has_primary_menu %}
+								{{ page.primary_menu }}
+							{% endif %}								
+						</div>
+					{% endif %}
+
+
+						{# menu toggles #}
+						{% if has_primary_menu or has_secondary_menu %}
+							{# 
+								The "Header Toggles" section sets a number of buttons to activate 
+								- the primary menu/search regions on small screens, and
+								- the secondary region on all screen sizes (region where we expect
+									the services menu will be positioned).
+							#}
+							<div class="lgd-header__toggles ecc-header__toggles">
+								{% if has_secondary_menu %}
+									<button 
+										class="lgd-header__toggle lgd-header__toggle--secondary" 
+										data-target="lgd-header__nav--secondary" 
+										aria-controls="lgd-header__nav--secondary" 
+										aria-expanded="false" 
+										aria-label="{{ 'Toggle services menu'|t }}"
+									>
+										<span class="lgd-header__toggle-text lgd-header__toggle-text--secondary">{{ 'Services'|t }}</span>
+										<span class="lgd-header__toggle-icon lgd-header__toggle-icon--secondary"></span>
+									</button>
+								{% endif %}
+
+								{% if has_primary_menu %}
+									<button 
+										class="lgd-header__toggle lgd-header__toggle--primary" 
+										data-target="lgd-header__nav--primary" 
+										aria-controls="lgd-header__nav--primary" 
+										aria-expanded="false"
+										aria-label="{{ 'Toggle Primary Navigation'|t }}"
+									>
+										<span class="lgd-header__toggle-text lgd-header__toggle-text--primary">{{ 'Menu'|t }}</span>
+										<span class="lgd-header__toggle-icon lgd-header__toggle-icon--primary"></span>
+									</button>
+								{% endif %}
+							</div>
+						{% endif %}
+							
+
+
+
+					{% if has_secondary_menu %}
+						<div id="lgd-header__nav--secondary" class="lgd-header__nav lgd-header__nav--secondary ecc-nav__secondary">
+							{{ page.secondary_menu }}
+						</div>
+					{% endif %}
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

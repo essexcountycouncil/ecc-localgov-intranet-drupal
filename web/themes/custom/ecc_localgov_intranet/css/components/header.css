@@ -1,0 +1,73 @@
+.ecc-header {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.ecc-header--primary {
+  background-color: var(--color-section-header-primary-bg);
+  /* padding-top: clamp(1rem, 10vw, var(--section-spacing-vertical-header)); */
+  /* padding-bottom: clamp(1rem, 10vw, var(--section-spacing-vertical-header)); */
+}
+
+.ecc-header--secondary {
+  background-color: var(--color-section-header-secondary-bg);
+  /* padding-top: clamp(1rem, 10vw, var(--section-spacing-vertical-header)); */
+  /* padding-bottom: clamp(1rem, 10vw, var(--section-spacing-vertical-header)); */
+}
+
+/* Theming the Header Toggles */
+@media screen and (min-width: 48rem) {
+  .ecc-header__toggles {
+    margin-bottom: inherit;
+  }
+}
+
+
+/* padding on nav that slides out */
+.ecc-nav__secondary {
+  margin-bottom: clamp(1rem, 10vw, var(--section-spacing-vertical-header));
+}
+
+
+/* allow menu colours to be set in variables.css */
+.menu--main > .menu-item--active-trail a,
+.menu--main > .menu-item a:focus,
+.menu--main > .menu-item a:hover {
+  color: var(--menu-main-link-color-active);
+}
+
+@media screen and (min-width: 48rem) {  
+  .menu--main > .menu-item a {
+    color: var(--menu-main-link-color); 
+  }
+}
+
+
+/* fix bug with icon being mis-aligned */
+.lgd-header__toggle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Overrides for Specific Toggles */
+.lgd-header__toggle--secondary {
+  display: none;
+}
+@media screen and (min-width: 48rem) {
+  .lgd-header__toggle--primary {
+    display: none;
+  }
+  .lgd-header__toggle--secondary {
+    display: flex;
+  }
+}
+
+.lgd-header__toggle-icon::after {
+  transform: rotate(90deg) translate(3px, -5px);
+}
+
+.lgd-header__toggle--active .lgd-header__toggle-icon::after {
+  transform: rotate(270deg) translate(-3px, 0);
+}
+
