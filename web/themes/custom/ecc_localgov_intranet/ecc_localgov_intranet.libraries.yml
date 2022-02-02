@@ -27,3 +27,17 @@ secondary-menu:
     theme:
       css/components/secondary-menu.css: { weight: 200 }
       css/components/secondary-menu.ie11.css: { weight: 200 }
+
+
+sitewide-search:
+  css:
+    theme:
+      css/components/sitewide-search.css: { weight: 200 }   
+      css/components/sitewide-search.ie11.css: { weight: 200 }   
+
+
+box-links:
+  css:
+    theme:
+      css/components/box-links.css: { weight: 200 }   
+      css/components/box-links.ie11.css: { weight: 200 }         

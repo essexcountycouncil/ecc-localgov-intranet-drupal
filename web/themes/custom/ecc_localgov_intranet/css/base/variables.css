@@ -80,8 +80,9 @@ body {
   
   --essex-dark-grey: #3D2E3A;
   --essex-dark-grey-hover: #271d25;
-  --essex-link-blue: #1D70B8;
+  --essex-link-blue: #2E65B7;
   --essex-font-color: #1E2428;
+  --essex-border-color: #B1B4B6;
   
   /*
   Variables being overridden
@@ -107,13 +108,14 @@ body {
   Grey Scale
   In this section, we define our greys; let's not have 50 shades
   */
-  --color-white: #fff;
-  --color-grey-lightest: #f9f9f9;
-  --color-grey-lighter: #eaeaea;
-  --color-grey-light: #96918b;
-  --color-grey-medium: #b1b4b6;
-  --color-grey-dark: #505a5f;
-  --color-black: #0b0c0c;
+  --color-white: #FFFFFF;
+  --color-grey-lightest: #F0F0F0;
+  --color-grey-lighter: #AAAAAA;
+  --color-grey-light: #84847A;
+  --color-grey-medium: #5E5E56;
+  --color-grey-dark: #414745;
+  --color-black: #0D0E0E;
+
   
   
 
@@ -133,7 +135,7 @@ body {
   --color-danger: var(--color-red);
   --color-warning: var(--color-orange);
   --color-minor: var(--color-yellow);
-  --color-link: var(--color-accent);
+  --color-link: var(--essex-link-blue);
   --color-focus: #ff0;
   
   
@@ -167,6 +169,23 @@ body {
   --font-size-h6: var(--font-size-medium);
 
 
+
+    /* Borders */
+    /* --border-width: 1px; */
+    /* --border-width-large: 5px; */
+    --border-color: var(--essex-border-color);
+    --border-color-dark: var(--essex-border-color);
+    /* --border-color-alert: var(--color-black); */
+    /* --border-style: solid; */
+    --border-radius: .5rem;
+    /* --border: var(--border-width) var(--border-style) var(--border-color); */
+    /* --border-large: var(--border-width-large) var(--border-style) var(--border-color); */
+    /* --border-dark: var(--border-width) var(--border-style) var(--border-color-dark); */
+
+
+
+
+
   --font-color: var(--essex-font-color);
   
   
@@ -181,10 +200,10 @@ body {
   --header-services-button-bg-color-hover: #d8d8d8;
   --header-services-button-color-hover: var(--font-color);
   --header-logo-width: 20rem;
-  --header-search-button-color: var(--font-color);
-  /* --header-search-button-bg-color: var(--color-accent); */
-  --header-search-button-color-hover: var(--essex-dark-grey-hover);
-  --header-search-button-bg-color-hover: var(--font-color);
+  --header-search-button-color: var(--color-white);
+  --header-search-button-bg-color: var(--color-black);
+  --header-search-button-color-hover: var(--color-white);
+  --header-search-button-bg-color-hover: var(--essex-dark-grey-hover);
   /* --header-search-input-border: none; */
 
   /* new header items */
@@ -197,7 +216,7 @@ body {
   
 
     /* Secondary Menu */
-    --secondary-menu-bg-color-first: var(--color-accent);
+    --secondary-menu-bg-color-first: var(--page-background-color);
     --secondary-menu-bg-color-second: var(--page-background-color);
     --secondary-menu-link-color: var(--color-black);
     --secondary-menu-link-color-focus: var(--color-black);
@@ -216,7 +235,17 @@ body {
   /* --breadcrumbs-spacing-bottom: var(--vertical-rhythm-spacing); */
   
   
+
+    /* Call-out Box */
+    /* --call-out-box-padding: var(--spacing-large); */
+    /* --call-out-box-link-padding: var(--spacing-smaller); */
+    --call-out-box-bg-color: var(--color-grey-lighter);
+    --call-out-box-text-color: var(--font-color);
+  
+
   
   
+
+
   
 } 

@@ -1,3 +1,6 @@
+/* CSS for our own classes */
+
+
 .ecc-header {
   padding-top: 0;
   padding-bottom: 0;
@@ -5,14 +8,11 @@
 
 .ecc-header--primary {
   background-color: var(--color-section-header-primary-bg);
-  /* padding-top: clamp(1rem, 10vw, var(--section-spacing-vertical-header)); */
-  /* padding-bottom: clamp(1rem, 10vw, var(--section-spacing-vertical-header)); */
 }
 
 .ecc-header--secondary {
+  display: none;
   background-color: var(--color-section-header-secondary-bg);
-  /* padding-top: clamp(1rem, 10vw, var(--section-spacing-vertical-header)); */
-  /* padding-bottom: clamp(1rem, 10vw, var(--section-spacing-vertical-header)); */
 }
 
 /* Theming the Header Toggles */
