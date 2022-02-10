@@ -12,7 +12,7 @@
 /composer.lock
 
 # Ignore sensitive information
-/web/sites/*/settings*.php
+# /web/sites/*/settings*.php
 /web/sites/*/services*.yml
 
 # Ignore Drupal's file directory
@@ -66,3 +66,6 @@
 
 # Ignore temp files
 /.phpunit.result.cache
+
+
+.DS_STORE
