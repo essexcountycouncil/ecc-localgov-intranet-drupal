@@ -22,8 +22,6 @@ if ($platformsh->hasRelationship('database')) {
   ];
 }
 
-print_r($creds['path']);
-
 // Enable verbose error messages on development branches, but not on the production branch.
 // You may add more debug-centric settings here if desired to have them automatically enable
 // on development but not production.
