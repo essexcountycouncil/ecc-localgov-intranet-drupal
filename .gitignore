@@ -66,3 +66,6 @@
 
 # Ignore temp files
 /.phpunit.result.cache
+
+
+.DS_STORE

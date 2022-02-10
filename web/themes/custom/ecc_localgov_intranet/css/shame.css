@@ -37,3 +37,27 @@ blockquote {
   border-left: var(--border-large);
   border-color: var(--color-accent);
 } */
+
+/* to go in sitewide search when dev env wants to behave */
+
+.region .region-search {
+  /* display: none; */
+}
+
+.lgd-region--search label {
+  display: none;
+}
+
+.lgd-region--search .form-actions {
+  margin: 0 0 0 var(--spacing-small);
+}
+
+
+.lgd-region--search .form-submit {
+  padding: var(--input-padding-vertical) var(--input-padding-horizontal);
+  font-size: var(--font-size-medium);
+}
+
+.lgd-region--search .form-text {
+  font-size: var(--font-size-medium);
+}
